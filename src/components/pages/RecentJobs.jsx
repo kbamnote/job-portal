@@ -12,7 +12,7 @@ const RecentJobs = () => {
       type: "Full time",
       salary: "$40000-$42000",
       location: "New-York, USA",
-      logo: "src/assets/one.png",
+      logo: "/assets/one.png",
       timeAgo: "10 min ago"
     },
     {
@@ -23,7 +23,7 @@ const RecentJobs = () => {
       type: "Part time",
       salary: "$28000-$32000",
       location: "Los- Angeles, USA",
-      logo: "src/assets/two.png",
+      logo: "/assets/two.png",
       timeAgo: "12 min ago"
     },
     {
@@ -34,7 +34,7 @@ const RecentJobs = () => {
       type: "Full time",
       salary: "$48000-$50000",
       location: "Texas, USA",
-      logo: "src/assets/three.png",
+      logo: "/assets/three.png",
       timeAgo: "15 min ago"
     },
     {
@@ -45,7 +45,7 @@ const RecentJobs = () => {
       type: "Full time",
       salary: "$42000-$48000",
       location: "Florida, USA",
-      logo: "src/assets/four.png",
+      logo: "/assets/four.png",
       timeAgo: "24 min ago"
     },
     {
@@ -56,7 +56,7 @@ const RecentJobs = () => {
       type: "Full time",
       salary: "$38000-$40000",
       location: "Boston, USA",
-      logo: "src/assets/five.png",
+      logo: "/assets/five.png",
       timeAgo: "26 min ago"
     }
   ];

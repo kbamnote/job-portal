@@ -13,15 +13,18 @@ const ContactPage = () => {
     <>
 
     <Header/>
-    <div className="max-w-7xl mx-auto px-4">
+    
         
       
-      <div className="py-12 text-center">
-        <h1 className="text-4xl font-bold">Contact Us</h1>
+    <div className=" w-auto h-60 bg-gray-900 text-white flex justify-center items-center">
+        <h1 className="text-5xl font-semibold">Contact Us</h1>
       </div>
 
+
+<div className='max-w-7xl mx-auto px-4 py-8'>
+
       {/* Main Content */}
-      <div className="grid md:grid-cols-2 gap-12 mb-12">
+      <div className="grid md:grid-cols-2 gap-12 mb-12 ">
         {/* Left Column */}
         <div>
           <h2 className="text-3xl font-bold mb-6">
@@ -157,7 +160,7 @@ const ContactPage = () => {
       {/* Map */}
       <div className="h-96 w-full mb-12 rounded-lg overflow-hidden shadow-lg">
         <img 
-          src="/src/assets/Map.png"
+          src="/public/assets/Map.png"
           alt="Location map"
           className="w-full h-full object-cover"
         />
@@ -165,11 +168,13 @@ const ContactPage = () => {
 
       {/* Footer Logos */}
       <div className="flex justify-between items-center py-8 border-t flex-wrap gap-8">
-        <img src="/src/assets/zoom.png" alt="zoom" className="h-8 opacity-50" />
-        <img src="/src/assets/tinder.png" alt="tinder" className="h-8 opacity-50" />
-        <img src="/src/assets/dribble.png" alt="dribbble" className="h-8 opacity-50" />
-        <img src="/src/assets/asana1.png" alt="asana" className="h-8 opacity-50" />
+      <img src="/assets/zoom.png" alt="zoom" className="h-8 opacity-50" />
+<img src="/assets/tinder.png" alt="tinder" className="h-8 opacity-50" />
+<img src="/assets/dribble.png" alt="dribbble" className="h-8 opacity-50" />
+<img src="/assets/asana1.png" alt="asana" className="h-8 opacity-50" />
       </div>
+    
+    
     </div>
     <Footer/>
     </>

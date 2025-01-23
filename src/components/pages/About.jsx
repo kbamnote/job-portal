@@ -26,7 +26,7 @@ const HeroSection = () => {
         <div className="lg:w-1/2">
           <div className="rounded-3xl overflow-hidden">
             <img 
-              src="/src/assets/img.png" 
+              src="/assets/hero.png" 
               alt="Hero" 
               className="w-full h-full mx-auto"
             />

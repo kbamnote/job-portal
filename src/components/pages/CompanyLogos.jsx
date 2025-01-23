@@ -1,10 +1,10 @@
 // src/components/CompanyLogos.js
 import React from 'react';
-import adobe from '../../assets/adobe.png'
-import asana from '../../assets/asana.png'
-import linear from '../../assets/linear.png'
-import slack from '../../assets/slack.png'
-import spotify from '../../assets/spotify.png'
+import adobe from '../../../public/assets/adobe.png'
+import asana from '../../../public/assets/asana.png'
+import linear from '../../../public/assets/linear.png'
+import slack from '../../../public/assets//slack.png'
+import spotify from '../../../public/assets/spotify.png'
 
 const CompanyLogos = () => {
   return (

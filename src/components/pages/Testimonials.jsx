@@ -9,7 +9,7 @@ const TestimonialsSection = () => {
       content: "Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed tristique in dolor. Mus etiam et vestibulum venenatis",
       author: "Marco Kihn",
       role: "Happy Client",
-      image: "/src/assets/Avatar.png"
+      image: "/assets/Avatar.png"
     },
     {
       rating: 5,
@@ -17,7 +17,7 @@ const TestimonialsSection = () => {
       content: "Mus etiam et vestibulum venenatis viverra ut. Elit morbi bibendum ullamcorper augue faucibus",
       author: "Kristin Hester",
       role: "Happy Client",
-      image: "/src/assets/Avatar.png"
+      image: "/assets/Avatar.png"
     },
     {
       rating: 5,
@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
       content: "Rhoncus sed tristique in dolor. Mus etiam et vestibulum venenatis viverra ut. Elit morbi bibendum ullamcorper augue faucibus. Nulla et tempor montes",
       author: "Zion Cisneros",
       role: "Happy Client",
-      image: "/src/assets/Avatar.png"
+      image: "/assets/Avatar.png"
     }
   ];
 

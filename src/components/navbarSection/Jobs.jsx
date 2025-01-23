@@ -18,7 +18,7 @@ const Jobs = () => {
       salary: "$40000-$42000",
       location: "New-York, USA",
       postedTime: "10 min ago",
-      logo: "/src/assets/1logo.png",
+      logo: "/assets/1logo.png",
     },
     {
       title: "Regional Creative Facilitator",
@@ -28,7 +28,7 @@ const Jobs = () => {
       salary: "$28000-$32000",
       location: "Los-Angeles, USA",
       postedTime: "12 min ago",
-      logo: "/src/assets/2logo.png",
+      logo: "/assets/2logo.png",
     },
     {
       title: "Internal Integration Planner",
@@ -38,7 +38,7 @@ const Jobs = () => {
       salary: "$48000-$50000",
       location: "Texas, USA",
       postedTime: "15 min ago",
-      logo: "/src/assets/6logo.png",
+      logo: "/assets/6logo.png",
     },
     {
       title: "District Intranet Director",
@@ -48,7 +48,7 @@ const Jobs = () => {
       salary: "$42000-$48000",
       location: "Florida, USA",
       postedTime: "24 min ago",
-      logo: "/src/assets/3logo.png",
+      logo: "/assets/3logo.png",
     },
     {
       title: "Corporate Tactics Facilitator",
@@ -58,7 +58,7 @@ const Jobs = () => {
       salary: "$38000-$40000",
       location: "Boston, USA",
       postedTime: "26 min ago",
-      logo: "/src/assets/1logo.png",
+      logo: "/assets/1logo.png",
     },
     {
       title: "Forward Accounts Consultant",
@@ -68,15 +68,14 @@ const Jobs = () => {
       salary: "$45000-$48000",
       location: "Boston, USA",
       postedTime: "30 min ago",
-      logo: "/src/assets/6logo.png",
+      logo: "/assets/6logo.png",
     },
   ];
-
   return (
     <>
      <Header/>
 
-      <div className=" w-auto h-60 bg-black text-white flex justify-center items-center">
+      <div className=" w-auto h-60 bg-gray-900 text-white flex justify-center items-center">
         <h1 className="text-5xl font-semibold">Jobs</h1>
       </div>
    
@@ -359,7 +358,7 @@ const Jobs = () => {
                       className="bg-white p-6 rounded-lg text-center"
                     >
                       <img
-                        src="src/assets/image1.png"
+                        src="/assets/image1.png"
                         alt={`${company} logo`}
                         className="w-12 h-12 mx-auto mb-4"
                       />
